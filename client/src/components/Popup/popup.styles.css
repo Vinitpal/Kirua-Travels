@@ -1,0 +1,35 @@
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card label {
+  color: tomato;
+  font-size: 13px;
+  border-bottom: 1px solid tomato;
+  margin: 3px 0;
+}
+
+.card h4,
+.card p {
+  margin: 0;
+}
+
+.card .desc {
+  font-size: 14px;
+}
+
+.card .stars .star {
+  color: gold;
+}
+
+.card .username {
+  font-size: 14px;
+}
+
+.card .time {
+  font-size: 12px;
+}
